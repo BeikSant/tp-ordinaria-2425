@@ -5,23 +5,23 @@ public class Receta {
     /**
      * Nombre de la receta
      */
-    private String nombre;
+    private final String nombre;
     /**
      * Ingredientes de la receta
      */
-    private String[] ingredientes;
+    private final String[] ingredientes;
     /**
      * Instrucciones de la receta
      */
-    private String[] instrucciones;
+    private final String[] instrucciones;
     /**
      * Máximo de ingredientes que puede tener la receta
      */
-    private int maxIngredientes;
+    private final int maxIngredientes;
     /**
      * Máximo de instrucciones que puede tener la receta
      */
-    private int maxInstrucciones;
+    private final int maxInstrucciones;
     /**
      * Número actual de ingredientes que posee la receta
      */
